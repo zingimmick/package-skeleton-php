@@ -10,6 +10,19 @@ PRs and issues are linked, so you can find more about it. Thanks to [ChangelogLi
 
 ## Unreleased
 
+### Added
+
+- [#15] Added tentative support for PHP 8.0
+
+### Changed
+
+- [#18] Bump zing/coding-standard from ^2.3 to ^2.4
+- [#17] YAML to PHP
+- [#16] Improve coding standard config
+- [#14] Bump codecov/codecov-action from v1.0.12 to v1.0.13
+
+## [0.2.0] - 2020-08-14
+
 - [#13] Improve doc
 - [#12] Use double pipe for OR condition
 - [#11] Configure Kodiak
@@ -44,3 +57,9 @@ PRs and issues are linked, so you can find more about it. Thanks to [ChangelogLi
 [#11]: https://github.com/zingimmick/package-skeleton-php/pull/11
 [#10]: https://github.com/zingimmick/package-skeleton-php/pull/10
 [#8]: https://github.com/zingimmick/package-skeleton-php/pull/8
+[0.2.0]: https://github.com/zingimmick/package-skeleton-php/compare/0.1.0...0.2.0
+[#18]: https://github.com/zingimmick/package-skeleton-php/pull/18
+[#17]: https://github.com/zingimmick/package-skeleton-php/pull/17
+[#16]: https://github.com/zingimmick/package-skeleton-php/pull/16
+[#15]: https://github.com/zingimmick/package-skeleton-php/pull/15
+[#14]: https://github.com/zingimmick/package-skeleton-php/pull/14
