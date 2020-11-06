@@ -10,6 +10,16 @@ PRs and issues are linked, so you can find more about it. Thanks to [ChangelogLi
 
 ## Unreleased
 
+### Changed
+
+- [#27] Setup problem matchers for PHPUnit
+- [#26] Provisional support for PHP 8.0
+- [#24] Update codecov/codecov-action action to v1.0.14
+- [#23] Bump codecov/codecov-action from v1.0.13 to v1.0.14
+- [#22] Bump paambaati/codeclimate-action from v2.6.0 to v2.7.4
+
+## [0.3.0] - 2020-10-13
+
 ### Added
 
 - [#15] Added tentative support for PHP 8.0
@@ -63,3 +73,9 @@ PRs and issues are linked, so you can find more about it. Thanks to [ChangelogLi
 [#16]: https://github.com/zingimmick/package-skeleton-php/pull/16
 [#15]: https://github.com/zingimmick/package-skeleton-php/pull/15
 [#14]: https://github.com/zingimmick/package-skeleton-php/pull/14
+[#27]: https://github.com/zingimmick/package-skeleton-php/pull/27
+[#26]: https://github.com/zingimmick/package-skeleton-php/pull/26
+[#24]: https://github.com/zingimmick/package-skeleton-php/pull/24
+[#23]: https://github.com/zingimmick/package-skeleton-php/pull/23
+[#22]: https://github.com/zingimmick/package-skeleton-php/pull/22
+[0.3.0]: https://github.com/zingimmick/package-skeleton-php/compare/0.2.0...0.3.0
