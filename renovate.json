@@ -2,5 +2,7 @@
   "extends": [
     "config:base",
     ":preserveSemverRanges"
-  ]
+  ],
+  "rangeStrategy": "widen",
+  "labels": ["dependencies", "automerge"]
 }
