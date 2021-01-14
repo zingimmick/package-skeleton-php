@@ -9,8 +9,6 @@
             "email": "zingimmick@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "config": {
         "sort-packages": true,
         "preferred-install": "dist"
@@ -20,7 +18,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0,<8.5.12 || ^9.3.3",
-        "zing/coding-standard": "^2.4"
+        "zing/coding-standard": "^2.4 || ^3.2"
     },
     "autoload": {
         "psr-4": {
@@ -49,5 +47,7 @@
         "test": [
             "@test:phpunit"
         ]
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
