@@ -12,6 +12,18 @@ PRs and issues are linked, so you can find more about it. Thanks to [ChangelogLi
 
 ### Changed
 
+- [#41] Bump actions/cache from v2 to v2.1.4
+- [#39] Enable phpstan
+- [#38] Update codecov/codecov-action action to v1.2.1
+- [#37] Update codecov/codecov-action action to v1.2.0
+- [#34] Update codecov/codecov-action action to v1.1.1
+- [#33] Bump codecov/codecov-action from v1.0.14 to v1.1.0
+- [#32] Bump paambaati/codeclimate-action from v2.7.4 to v2.7.5
+
+## [0.3.1] - 2020-11-06
+
+### Changed
+
 - [#27] Setup problem matchers for PHPUnit
 - [#26] Provisional support for PHP 8.0
 - [#24] Update codecov/codecov-action action to v1.0.14
@@ -79,3 +91,11 @@ PRs and issues are linked, so you can find more about it. Thanks to [ChangelogLi
 [#23]: https://github.com/zingimmick/package-skeleton-php/pull/23
 [#22]: https://github.com/zingimmick/package-skeleton-php/pull/22
 [0.3.0]: https://github.com/zingimmick/package-skeleton-php/compare/0.2.0...0.3.0
+[#39]: https://github.com/zingimmick/package-skeleton-php/pull/39
+[#38]: https://github.com/zingimmick/package-skeleton-php/pull/38
+[#37]: https://github.com/zingimmick/package-skeleton-php/pull/37
+[#34]: https://github.com/zingimmick/package-skeleton-php/pull/34
+[#33]: https://github.com/zingimmick/package-skeleton-php/pull/33
+[#32]: https://github.com/zingimmick/package-skeleton-php/pull/32
+[0.3.1]: https://github.com/zingimmick/package-skeleton-php/compare/0.3.0...0.3.1
+[#41]: https://github.com/zingimmick/package-skeleton-php/pull/41
