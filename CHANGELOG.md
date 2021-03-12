@@ -1,3 +1,7 @@
+#### [Version 0.4.0 (2021-03-12)](https://zingimmick/package-skeleton-php/releases/tag/0.4.0) 
+### Implemented Enhancements 
+- Remove renovate config [#43](https://zingimmick/package-skeleton-php/issues/#43) ([@zingimmick](https://github.com/@zingimmick))
+ 
 # Changelog
 All notable changes to this project will be documented in this file.
 
