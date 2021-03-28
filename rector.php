@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use Rector\Core\Configuration\Option;
 use Rector\PHPUnit\Rector\Class_\AddSeeTestAnnotationRector;
+use Rector\PHPUnit\Set\PHPUnitSetList;
 use Rector\Privatization\Rector\Class_\ChangeReadOnlyVariableWithDefaultValueToConstantRector;
 use Rector\Privatization\Rector\Class_\FinalizeClassesWithoutChildrenRector;
 use Rector\Set\ValueObject\SetList;
@@ -14,12 +15,9 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters->set(
         Option::SETS,
         [
-            SetList::ACTION_INJECTION_TO_CONSTRUCTOR_INJECTION,
-            SetList::ARRAY_STR_FUNCTIONS_TO_STATIC_CALL,
             SetList::CODING_STYLE,
-            SetList::PHPUNIT_CODE_QUALITY,
+            PHPUnitSetList::PHPUNIT_CODE_QUALITY,
             SetList::PRIVATIZATION,
-            SetList::DOCTRINE_CODE_QUALITY,
             SetList::DEAD_CODE,
             SetList::CODE_QUALITY,
             SetList::PHP_70,
