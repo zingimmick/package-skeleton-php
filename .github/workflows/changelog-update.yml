@@ -7,7 +7,7 @@ name: "Changelog - Update Unreleased"
 on:
   push:
     branches:
-      - automation
+      - master
 
 jobs:
   changelog-update-unreleased:
