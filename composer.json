@@ -3,10 +3,16 @@
     "description": "A skeleton repository for PHP Packages",
     "keywords": ["php", "package", "skeleton"],
     "license": "MIT",
+    "homepage": "https://github.com/zingimmick/package-skeleton-php",
+    "support": {
+        "issues": "https://github.com/zingimmick/package-skeleton-php/issues",
+        "source": "https://github.com/zingimmick/package-skeleton-php"
+    },
     "authors": [
         {
             "name": "zingimmick",
-            "email": "zingimmick@outlook.com"
+            "email": "zingimmick@outlook.com",
+            "homepage": "https://github.com/zingimmick"
         }
     ],
     "config": {
