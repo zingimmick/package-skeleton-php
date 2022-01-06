@@ -6,7 +6,10 @@ namespace Zing\Skeleton\Tests;
 
 use Zing\Skeleton\Example;
 
-class ExampleTest extends TestCase
+/**
+ * @internal
+ */
+final class ExampleTest extends TestCase
 {
     public function testFoo(): void
     {
