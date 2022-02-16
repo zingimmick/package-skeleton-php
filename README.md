@@ -8,7 +8,7 @@
 <a href="https://packagist.org/packages/zing/package-skeleton-php"><img src="https://poser.pugx.org/zing/package-skeleton-php/license" alt="License"></a>
 </p>
 
-> **Requires [PHP 7.2.0+](https://php.net/releases/)**
+> **Requires [PHP 7.3.0+](https://php.net/releases/)**
 
 Require Package Skeleton PHP using [Composer](https://getcomposer.org):
 
