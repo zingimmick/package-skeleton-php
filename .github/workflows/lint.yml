@@ -1,4 +1,4 @@
-name: lint
+name: Lint
 
 on:
   pull_request:
@@ -7,9 +7,9 @@ on:
       - master
 
 jobs:
-  ecs:
+  lint:
     runs-on: ubuntu-latest
-    name: PHP ${{ matrix.php }}
+    name: Lint
 
     steps:
       - name: Checkout code
