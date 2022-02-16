@@ -9,11 +9,6 @@ on:
 jobs:
   ecs:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: true
-      matrix:
-        php: [7.3, 7.4, 8.0, 8.1]
-
     name: PHP ${{ matrix.php }}
 
     steps:
@@ -22,9 +17,6 @@ jobs:
 
       - name: Setup PHP
         uses: shivammathur/setup-php@2.17.0
-        with:
-          php-version: ${{ matrix.php }}
-          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, gd
 
       - name: Install dependencies
         uses: ramsey/composer-install@v1
