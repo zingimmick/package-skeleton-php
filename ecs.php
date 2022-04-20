@@ -3,17 +3,19 @@
 declare(strict_types=1);
 
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
+use Symplify\EasyCodingStandard\Config\ECSConfig;
 use Symplify\EasyCodingStandard\ValueObject\Option;
 use Zing\CodingStandard\Set\ECSSetList;
 
-return static function (ContainerConfigurator $containerConfigurator): void {
-    $containerConfigurator->import(ECSSetList::PHP_72);
-    $containerConfigurator->import(ECSSetList::CUSTOM);
+return static function (ECSConfig $ecsConfig): void {
+    $ecsConfig->sets([
 
-    $parameters = $containerConfigurator->parameters();
-    $parameters->set(Option::PARALLEL, true);
-    $parameters->set(
-        Option::PATHS,
+        ECSSetList::PHP_72,
+        ECSSetList::CUSTOM,
+    ]);
+
+    $ecsConfig->parallel();
+    $ecsConfig->paths(
         [__DIR__ . '/src', __DIR__ . '/tests', __DIR__ . '/ecs.php', __DIR__ . '/rector.php']
     );
 };
