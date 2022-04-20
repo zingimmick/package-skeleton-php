@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 PRs and issues are linked, so you can find more about it. Thanks to [ChangelogLinker](https://github.com/Symplify/ChangelogLinker).
 
 <!-- changelog-linker -->
+## 1.3.0 - 2022-04-20
+
+<!-- Release notes generated using configuration in .github/release.yml at 1.x -->
+## What's Changed
+
+### Other Changes
+
+- Configuring automatically generated release notes by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/101
+- Add support for new ECSConfig and RectorConfig class by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/103
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-php/compare/1.2.0...1.3.0
+
 ## 1.2.0 - 2022-04-10
 
 ## What's Changed
