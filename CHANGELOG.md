@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 2.0.0 - 2022-08-27
+
+<!-- Release notes generated using configuration in .github/release.yml at 2.x -->
+### What's Changed
+
+#### Other Changes
+
+- Prepare 2.x by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/93
+- Use reuseable workflow by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/110
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-php/compare/1.3.0...2.0.0
+
 ## 1.3.0 - 2022-04-20
 
 <!-- Release notes generated using configuration in .github/release.yml at 1.x -->
