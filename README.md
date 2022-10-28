@@ -7,7 +7,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/zing/package-skeleton-php/v/unstable.svg)](https://packagist.org/packages/zing/package-skeleton-php)
 [![License](https://poser.pugx.org/zing/package-skeleton-php/license)](https://packagist.org/packages/zing/package-skeleton-php)
 
-> **Requires [PHP 7.3.0+](https://php.net/releases/)**
+> **Requires [PHP 8.0+](https://php.net/releases/)**
 
 Require Package Skeleton PHP using [Composer](https://getcomposer.org):
 
