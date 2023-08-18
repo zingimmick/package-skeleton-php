@@ -13,8 +13,8 @@ final class ExampleTest extends TestCase
 {
     public function testFoo(): void
     {
-        self::assertTrue(class_exists(Example::class));
-        self::assertTrue(method_exists(Example::class, 'foo'));
-        self::assertTrue((new Example())->foo());
+        $this->assertTrue(class_exists(Example::class));
+        $this->assertTrue(method_exists(Example::class, 'foo'));
+        $this->assertTrue((new Example())->foo());
     }
 }
