@@ -3,9 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
     beStrictAboutOutputDuringTests="true"
+    cacheDirectory=".phpunit.cache"
     bootstrap="vendor/autoload.php"
     failOnWarning="true"
-    cacheDirectory=".phpunit.cache"
     failOnRisky="true"
     colors="true">
   <testsuites>
