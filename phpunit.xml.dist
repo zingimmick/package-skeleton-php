@@ -6,7 +6,7 @@
     cacheDirectory=".phpunit.cache"
     bootstrap="vendor/autoload.php"
     failOnWarning="true"
-    cacheDirectory=".phpunit.cache">
+    cacheDirectory=".phpunit.cache"
     failOnRisky="true"
     colors="true">
   <testsuites>
