@@ -6,6 +6,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 3.1.0 - 2025-01-22
+
+<!-- Release notes generated using configuration in .github/release.yml at 3.x -->
+### What's Changed
+
+#### Other Changes
+
+* Update license copyright year(s) by @github-actions in https://github.com/zingimmick/package-skeleton-php/pull/120
+* Rename skipped rules on $rectorConfig->skip() are changed to different namespace by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/131
+* Support for PHP 8.3 by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/134
+* Update license copyright year(s) by @github-actions in https://github.com/zingimmick/package-skeleton-php/pull/138
+* ci: add .deepsource.toml by @undecane in https://github.com/zingimmick/package-skeleton-php/pull/148
+* Add line breaks to phpunit config file for enhanced readability by @undecane in https://github.com/zingimmick/package-skeleton-php/pull/149
+* Remove rules that were never registered by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/154
+* Support for PHP 8.4 by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/156
+* Update license copyright year(s) by @github-actions in https://github.com/zingimmick/package-skeleton-php/pull/160
+
+### New Contributors
+
+* @undecane made their first contribution in https://github.com/zingimmick/package-skeleton-php/pull/148
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-php/compare/3.0.0...3.1.0
+
 ## 3.0.0 - 2022-12-11
 
 <!-- Release notes generated using configuration in .github/release.yml at 3.x -->
