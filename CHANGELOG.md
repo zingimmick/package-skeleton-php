@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 3.2.0 - 2026-11-27
+
+<!-- Release notes generated using configuration in .github/release.yml at 3.x -->
+### What's Changed
+
+#### Other Changes
+
+* Support for PHPUnit 12 by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/161
+* Support for PHP 8.5 by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/171
+* Remove branch alias by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/172
+* Update license copyright year(s) by @github-actions[bot] in https://github.com/zingimmick/package-skeleton-php/pull/175
+* Support for PHPUnit 13 by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/178
+* Support for PHP 8.6 by @zingimmick in https://github.com/zingimmick/package-skeleton-php/pull/185
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-php/compare/3.1.0...3.2.0
+
 ## 3.1.0 - 2025-01-22
 
 <!-- Release notes generated using configuration in .github/release.yml at 3.x -->
